@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+<link rel="stylesheet" type="text/css" href="MyZipNbaBlackOut.css">
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<title>My Zip Nba BlackOut</title>
+</head>
+<body>
+    <!-- <p class="Ipv4"></p>
+    <label class ="label"></label>
+    <label class ="label2"></label>
+    <div class="AppendLocationForIPV4"></div> -->
+
+
+
+    <div class="AllContent">
+        <div class="TopBar">
+            <div class="ContentTopBar">
+                <img src="BlackOutWebsite.png" alt="" class="TopLogo">
+                <label class="LogoWebsitName">NBA BLACKOUT DATA</label>
+            </div>
+        </div>
+
+
+        <div class="bottomContent">
+            <div class="AllBottomContent">
+                <div class="BackGroundImageDiv">
+                    <img src="BottomUI.png" alt="" class="BackGroundImage" draggable="false">
+                </div>
+                <div class="IndexCard">
+                    <div class="BlackOutLogoAndDataLogo">
+                        <img src="BlackOutWebsite.png" alt="" class="BottomLogo">
+                        <div class="YourDataLabelDiv">
+                            <label class="DataLogo">Your NBA Blackout Data</label>
+                        </div>
+                    </div>
+
+                    <div class="Ipv4andZip">
+                        <div class="Ipv4AddressDiv">
+                            <label class="Ipv4Label">IPV4  Address :</label>
+                            <label class="Ipv4Data"></label>
+                        </div>
+
+                        <div class="ZipDiv">
+                            <label class="ZipLabel">Zip Code :</label>
+                            <div>
+                                <label class="ZipData"></label>
+                                <button class="CopyZipButton" onclick="CopyText()">Copy</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dividerDiv"></div>
+
+
+
+                    <div class="Ipv6div">
+                        <div class="Ipv6AddressDiv">
+                            <label class="Ipv6Label">IPV6  Address :</label>
+                            <label class="Ipv6Data"></label>
+                        </div>
+                    </div>
+
+                    <div class="dividerDiv"></div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    
+    <div class="AppendLocationForIPV4" style="display: none">
+        <label class="label2"></label>
+    </div>
+
+    <div class="AppendLocationForIPV6" style="display: none">
+        <label class="label3"></label>
+    </div>
+
+    <!-- <button onclick="Ipv4QuestionMark()">Check</button>
+    <link class="NavigateToBlackout" rel="NavigateToBlackOut" href="https://www.nba.com/leaguepass/blackouts"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link type="text/css" rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+    <script src="MyZipNbaBlackout.js"></script>
+</body>
+</html>
